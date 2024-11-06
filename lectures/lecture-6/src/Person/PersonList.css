@@ -1,0 +1,44 @@
+.people-list {
+  list-style-type: none; 
+  padding: 0;
+  margin: auto 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+
+}
+
+.person-card {
+  display: flex;
+  width: calc(33.33% - 12px);
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  margin: 10px 6px; 
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.profile-pic {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+
+.person-info h3 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.person-info p {
+  margin: 4px 0;
+  color: #555;
+}
+
+@media (max-width: 780px){
+    .person-card {
+    width: 100%; /* Full width on small screens */
+  }
+}

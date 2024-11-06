@@ -1,0 +1,17 @@
+{
+  "name": "react-course",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "workspaces": [
+    "lectures/*"
+  ],
+  "scripts": {
+    "start:lecture-1": "npm --prefix lectures/lecture-1 start",
+    "start:lecture-2": "npm --prefix lectures/lecture-2 start",
+    "install:all": "npm install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
